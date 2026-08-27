@@ -1,15 +1,31 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
+const coresPorRota = {
+  "/": "#2196F3",
+  "/categoria1": "#9B5DE0",
+  "/categoria2": "#5E0006",
+  "/categoria3": "#2196F3",
+};
 
-function Header(){
+function Header() {
+  const location = useLocation();
+  const corAtual = coresPorRota[location.pathname] || "#2196F3";
+
     return(
-        <header className="cabecalho flex justify-between items-center bg-[#2196F3] h-17"  >
+           <header
+            className="cabecalho flex justify-between items-center h-17 transition-colors duration-300" style={{ backgroundColor: corAtual }}>
             <div className="text-[#0D47A1] font-bold font-sans m-5">
+            <Link to="/" className="cursor-pointer hover:text-cyan-500 transition-all">
             <img src="./src/assets/shopplus-logo.png" alt="" width={150} />
+            </Link>
             </div>
             <div className="flex justify-between items-center gap-5 text-[#0D47A1] m-5 font-bold font-sans">
-            <p>Pag1</p>
-            <p>pag2</p>     
+            <Link to="/categoria1" className="cursor-pointer hover:text-cyan-500 transition-all">
+            <p>Categoria 1</p>
+            </Link>
+            <Link to="/categoria2" className="cursor-pointer hover:text-cyan-500 transition-all">
+            <p>Categoria 2</p>
+            </Link>
             <Link to="/categoria3" className="cursor-pointer hover:text-cyan-500 transition-all">
               <p>Categoria 3</p>
             </Link>
