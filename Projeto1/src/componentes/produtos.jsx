@@ -4,12 +4,12 @@ function Produtos({ listaProdutos }) {
       {listaProdutos.map((produto, i) => (
         <div
           key={i}
-          className="bg-white p-4 rounded-md shadow-md h-full w-full flex flex-col justify-between items-center gap-3"
+          className="bg-blue-100 p-4 rounded-md shadow-md h-full w-full flex flex-col justify-between items-center gap-3"
         >
           <img
-            src={produto.img}
-            alt={produto.nome}
-            className="w-full h-100 object-contain bg-gray-300 rounded-md"
+          src={produto.img}
+          alt={produto.nome}
+          className="w-full h-100 object-contain bg-gray-300 rounded-md"
           />
           <div className="flex flex-col justify-center items-center gap-1">
             <p className="font-semibold text-slate-800 text-4xl">{produto.nome}</p>

@@ -6,15 +6,18 @@ import Categoria3 from "./categoria3";
 import "./componentes/produtos"
 import Produtos from "./componentes/produtos";
 import Categoria1 from "./categoria1";
+import { produtosHome } from "./componente/produtos";
 
 function App() {
   return (
-  <BrowserRouter>
-    <Header />
-     <Routes>
-        <Route path="/" element={
-          <>
-            <Card />
+ <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Card />
               <main className="grid grid-cols-4 gap-4 p-2 h-[calc(100vh-68px)] overflow-y-auto">
                 <div className="col-span-4 flex justify-between items-center">
                   <h1 className="font-bold text-4xl">Featured Products</h1>
@@ -22,7 +25,7 @@ function App() {
                     View All
                   </button>
                 </div>
-                <Produtos />
+                <Produtos listaProdutos={produtosHome} />
               </main>
             </>
           }
@@ -30,7 +33,6 @@ function App() {
         <Route path="/categoria1" element={<Categoria1 />} />
         <Route path="/categoria3" element={<Categoria3 />} />
       </Routes>
-
       <Footer />
     </BrowserRouter>
   );
