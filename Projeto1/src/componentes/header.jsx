@@ -3,8 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 const coresPorRota = {
   "/": "#2196F3",
   "/categoria1": "#9B5DE0",
-  "/categoria2": "#5E0006",
-  "/categoria3": "#2196F3",
+  "/categoria2": "#E8DFCA",
+  "/categoria3": "#0065F8",
 };
 
 function Header() {
@@ -21,10 +21,10 @@ function Header() {
             </div>
             <div className="flex justify-between items-center gap-5 text-[#0D47A1] m-5 font-bold font-sans">
             <Link to="/categoria1" className="cursor-pointer hover:text-cyan-500 transition-all">
-            <p>Categoria 1</p>
+            <p>Tenis</p>
             </Link>
             <Link to="/categoria2" className="cursor-pointer hover:text-cyan-500 transition-all">
-            <p>Categoria 2</p>
+            <p>Camisetas</p>
             </Link>
             <Link to="/categoria3" className="cursor-pointer hover:text-cyan-500 transition-all">
               <p>Categoria 3</p>

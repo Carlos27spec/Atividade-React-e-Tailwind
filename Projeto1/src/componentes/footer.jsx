@@ -3,8 +3,8 @@ import { useLocation } from "react-router-dom";
 const coresPorRota = {
   "/": "#2196F3",
   "/categoria1": "#9B5DE0",
-  "/categoria2": "#5E0006",
-  "/categoria3": "#2196F3",
+  "/categoria2": "#E8DFCA",
+  "/categoria3": "#0065F8",
 };
 
 function Footer() {

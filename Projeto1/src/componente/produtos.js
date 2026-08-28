@@ -64,6 +64,47 @@ export const produtosCategoria1 = [
   },
 ];
 
-export const produtosCategoria2 = [];
+export const produtosCategoria2 = [
+  {
+    nome: "Camiseta Nike Social White",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-nike-1.jpg",
+  },
+  {
+    nome: "Camiseta Nike Social Black",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-nike-2.jpg",
+  },
+  {
+    nome: "Camiseta Adidas Social Gray",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-adidas-1.jpg",
+  },
+  {
+    nome: "Camiseta Adidas Social Blue",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-adidas-2.jpg",
+  },
+  {
+    nome: "Camiseta Calvin Klein Social White",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-calvinklein-1.jpg",
+  },
+  {
+    nome: "Camiseta Calvin Klein Social Black",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-calvinklein-2.jpg",
+  },
+  {
+    nome: "Camiseta Polo Lacoste Green",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-lacoste-1.jpg",
+  },
+  {
+    nome: "Camiseta Polo Lacoste Blue",
+    descricao: "Camiseta ideal para aquela ocasião especial.",
+    img: "./src/assets/camisas/camisa-lacoste-2.jpg",
+  },
+];
 
 export const produtosCategoria3 = [];

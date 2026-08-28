@@ -7,6 +7,7 @@ import "./componentes/produtos"
 import Produtos from "./componentes/produtos";
 import Categoria1 from "./categoria1";
 import { produtosHome } from "./componente/produtos";
+import Categoria2 from "./categoria2";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           }
         />
         <Route path="/categoria1" element={<Categoria1 />} />
+        <Route path="/categoria2" element={<Categoria2 />} />
         <Route path="/categoria3" element={<Categoria3 />} />
       </Routes>
       <Footer />
