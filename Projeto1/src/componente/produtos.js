@@ -107,4 +107,45 @@ export const produtosCategoria2 = [
   },
 ];
 
-export const produtosCategoria3 = [];
+export const produtosCategoria3 = [
+  {
+    nome: "Notebook Gamer Alienware",
+    descricao: "Notebook potente para uso profissional.",
+    img: "./src/assets/computador/notebook-gamer-1.jpg",
+  },
+  {
+    nome: "Notebook Gamer Razer",
+    descricao: "Notebook potente para uso profissional.",
+    img: "./src/assets/computador/notebook-gamer-2.jpg",
+  },
+  {
+    nome: "Notebook Gamer Corsair",
+    descricao: "Notebook potente para uso profissional.",
+    img: "./src/assets/computador/notebook-gamer-3.jpg",
+  },
+  {
+    nome: "Notebook Gamer MSI",
+    descricao: "Notebook potente para uso profissional.",
+    img: "./src/assets/computador/notebook-gamer-4.jpg",
+  },
+  {
+    nome: "PC Gamer Acer",
+    descricao: "PC potente para uso profissional.",
+    img: "./src/assets/computador/pc-gamer-1.jpg",
+  },
+  {
+    nome: "PC Gamer ASUS",
+    descricao: "PC potente para uso profissional.",
+    img: "./src/assets/computador/pc-gamer-2.jpg",
+  },
+  {
+    nome: "PC Gamer Dell",
+    descricao: "PC potente para uso profissional.",
+    img: "./src/assets/computador/pc-gamer-3.jpg",
+  },
+  {
+    nome: "PC Gamer HP",
+    descricao: "PC potente para uso profissional.",
+    img: "./src/assets/computador/pc-gamer-4.jpg",
+  },
+];

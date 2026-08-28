@@ -4,7 +4,7 @@ const coresPorRota = {
   "/": "#2196F3",
   "/categoria1": "#9B5DE0",
   "/categoria2": "#E8DFCA",
-  "/categoria3": "#0065F8",
+  "/categoria3": "#00CAFF",
 };
 
 function Header() {
@@ -27,7 +27,7 @@ function Header() {
             <p>Camisetas</p>
             </Link>
             <Link to="/categoria3" className="cursor-pointer hover:text-cyan-500 transition-all">
-              <p>Categoria 3</p>
+              <p>Computadores e Notebooks</p>
             </Link>
             </div>
             <div className="flex justify-between items-center gap-5 text-[#0D47A1] m-5 font-bold font-sans">

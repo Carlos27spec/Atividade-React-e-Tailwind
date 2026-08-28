@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const imagens = [
   "https://www.usevoron.com.br/cdn/shop/files/WhatsAppImage2024-06-25at07.26.56_1.jpg?v=1719334698&width=1445",
-  "https://http2.mlstatic.com/D_NQ_NP_921596-MLA100042443481_122025-O.webp",
+  "https://images.kabum.com.br/produtos/fotos/sync_mirakl/715914/xlarge/PC-Gamer-Ryzen-7-5700x-32gb-Ddr4-3200mhz-RTX-4060-8GB-SSD-1TB-Nvme-Branco-Full-White-Premium-Water-Cooler-RGB-E-Cabos-Sleeved_1739825434.png",
   "https://tfdfjz.vteximg.com.br/arquivos/ids/360076/tenis-esportivo-adidas-masculino-response-super-ji4320-azul-ji4320-1.jpg?v=639072008285900000",
 ];
 
