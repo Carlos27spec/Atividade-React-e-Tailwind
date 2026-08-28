@@ -30,7 +30,7 @@ function Header() {
               <p>Computadores e Notebooks</p>
             </Link>
             </div>
-            <div className="flex justify-between items-center gap-5 text-[#0D47A1] m-5 font-bold font-sans">
+            <div className="flex justify-between items-center gap-5 text-[#0D47A1] m-5 font-bold font-sans cursor-pointer">
                 <img src="./src/assets/lupa.webp" alt="" width={30}/>
                 <img src="./src/assets/perfil.png" alt="" width={30} />
                 <img src="./src/assets/carrinho.png" alt="" width={30} />

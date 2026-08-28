@@ -8,6 +8,8 @@ import Produtos from "./componentes/produtos";
 import Categoria1 from "./categoria1";
 import { produtosHome } from "./componente/produtos";
 import Categoria2 from "./categoria2";
+import Entrega from "./componentes/entrega";
+
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
           element={
             <>
               <Card />
-              <main className="grid grid-cols-4 gap-4 p-2 h-[calc(100vh-68px)] overflow-y-auto">
+              <main className="grid grid-cols-4 gap-4 p-2 h-[calc(100vh-68px)]">
                 <div className="col-span-4 flex justify-between items-center">
                   <h1 className="font-bold text-4xl">Featured Products</h1>
                   <button className="bg-white text-blue-600 hover:bg-blue-100 border border-gray-300 rounded-md px-4 py-1 text-2xl">
@@ -27,6 +29,9 @@ function App() {
                   </button>
                 </div>
                 <Produtos listaProdutos={produtosHome} />
+                <div className="col-span-4">
+                <Entrega />
+                </div>
               </main>
             </>
           }
