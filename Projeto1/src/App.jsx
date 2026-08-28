@@ -29,7 +29,7 @@ function App() {
                   </button>
                 </div>
                 <Produtos listaProdutos={produtosHome} />
-                <div className="col-span-4">
+                <div className="col-span-4 flex justify-center">
                 <Entrega />
                 </div>
               </main>
